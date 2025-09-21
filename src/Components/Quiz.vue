@@ -6,7 +6,7 @@
         <Question v-if="state==='question'" :key="question.question" :question="question" @answer="addAnswer" />
         <Recap v-if="state==='recap'"  :answers="answers" :quiz="quiz" />
 
-        {{ answers }}
+  
     </div>
 </template>
 
